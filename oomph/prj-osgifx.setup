@@ -10,7 +10,7 @@
     xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0"
     xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/jdt/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/JDT.ecore http://www.eclipse.org/oomph/setup/projects/1.0 index:/models/Projects.ecore"
     name="osgifx"
-    label="amitjoy/osgifx">
+    label="peterkir/osgifx">
   <setupTask
       xsi:type="setup:ResourceCreationTask"
       excludedTriggers="STARTUP MANUAL"
@@ -38,7 +38,7 @@
   <setupTask
       xsi:type="git:GitCloneTask"
       id="git.clone.osgifx"
-      remoteURI="amitjoy/osgifx">
+      remoteURI="peterkir/osgifx">
     <annotation
         source="http://www.eclipse.org/oomph/setup/InducedChoices">
       <detail
@@ -236,5 +236,5 @@
   <logicalProjectContainer
       xsi:type="setup:ProjectCatalog"
       href="index:/org.eclipse.setup#//@projectCatalogs[name='com.github']"/>
-  <description>amitjoy/osgifx provides cool stuff.</description>
+  <description>peterkir/osgifx provides cool stuff.</description>
 </setup:Project>
